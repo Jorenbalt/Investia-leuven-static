@@ -7,14 +7,20 @@ $header-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   height: $header-height;
+  overflow: hidden;
 }
 
 .header-overlay {
 
 }
 
+$content-background-color: rgba(100, 100, 100, 0.7);
+
 .header-content {
-  padding: spacing(30) 0;
+  padding-top: spacing(30);
+  padding-bottom: spacing(30);
+  background: $content-background-color;
+  box-shadow: -470px 0px 0px 500px $content-background-color;
 }
 
 .header-content__title {
