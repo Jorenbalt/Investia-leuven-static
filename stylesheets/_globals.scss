@@ -1,0 +1,39 @@
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// ----- COLORS -----
+$primary:           #616262;
+$secondary:         #333A56;
+$secondary-light:   #52658F;
+$tertiary:          #E8E8E8;
+
+$text:              #3a3a3a;
+$text-secondary:    #666666;
+$text-tertiary:     #a3a3a3;
+$text-invert:       #ffffff;
+
+$light-grey:        #DEDEDE;
+$white:             #ffffff;
+
+// ----- SPACING ------
+$baseline:          5px;
+@function spacing($multiplier) {
+  @return $multiplier * $baseline;
+}
+
+body {
+  color: $text;
+}
+
+h1 {
+  font-size: 40px;
+}

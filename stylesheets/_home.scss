@@ -1,0 +1,39 @@
+$header-height: 500px;
+
+.header {
+  background-image: url("../assets/header_building.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $header-height;
+}
+
+.header-overlay {
+
+}
+
+.header-content {
+  padding: spacing(30) 0;
+}
+
+.header-content__title {
+  color: white;
+}
+
+.header-content__description {
+  padding-top: spacing(3);
+  color: white;
+}
+
+.content {
+  padding: spacing(6) 0;
+  background-color: $light-grey;
+}
+
+.content-block {
+  background-color: $white;
+  padding: spacing(2) spacing(4) spacing(6) spacing(4);
+  margin-bottom: spacing(2);
+  border-radius: 10px;
+}

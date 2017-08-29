@@ -1,0 +1,29 @@
+
+.navbar {
+  min-height: 0;
+  padding: spacing(3) 0;
+  transition: all 0.2s ease-in;
+  //positioning
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar--background {
+  background-color: white;
+}
+
+.navbar-buttons {
+  list-style-type: none;
+  float: right;
+}
+
+.navbar-button {
+  display: inline;
+  padding: spacing(1) spacing(3) spacing(2);
+  &:hover {
+    border-bottom: 3px solid red;
+  }
+}
