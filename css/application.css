@@ -759,14 +759,12 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
   overflow: hidden; }
 
 .header-content {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background: rgba(100, 100, 100, 0.7);
-  box-shadow: -470px 0px 0px 500px rgba(100, 100, 100, 0.7); }
+  padding: 250px 0;
+  background: rgba(39, 45, 86, 0.7);
+  box-shadow: -470px 0px 0px 500px rgba(39, 45, 86, 0.7); }
 
 .header-content__title {
   color: white; }

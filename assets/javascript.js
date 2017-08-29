@@ -2,10 +2,10 @@ $(window).scroll(function() {
   var scroll = $(this).scrollTop();
 
   $('.header-content').css({
-    'transform' : 'translate(0px, ' + scroll/2 + 'px)'
+    'transform' : 'translate(0px, ' + scroll/3 + 'px)'
   })
 
-  if (scroll > 500) {
+  if (scroll > 5) {
     $('.navbar').addClass('navbar--background')
     $('.navbar-button').addClass('navbar-button--background');
   } else {
