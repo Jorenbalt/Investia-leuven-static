@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -21,7 +25,7 @@ $text-secondary:    #666666;
 $text-tertiary:     #a3a3a3;
 $text-invert:       #ffffff;
 
-$light-grey:        #DEDEDE;
+$light-grey:        #eaeaea;
 $white:             #ffffff;
 
 // ----- SPACING ------

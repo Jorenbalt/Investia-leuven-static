@@ -15,7 +15,7 @@
 $content-background-color: rgba(39, 45, 86, 0.7);
 
 .header-content {
-  padding: spacing(50) 0;
+  padding: spacing(50) 0 spacing(60);
   background: $content-background-color;
   box-shadow: -470px 0px 0px 500px $content-background-color;
 }
@@ -30,13 +30,6 @@ $content-background-color: rgba(39, 45, 86, 0.7);
 }
 
 .content {
-  padding: spacing(6) 0;
+  padding: spacing(10) 0;
   background-color: $light-grey;
-}
-
-.content-block {
-  background-color: $white;
-  padding: spacing(2) spacing(4) spacing(6) spacing(4);
-  margin-bottom: spacing(2);
-  border-radius: 10px;
 }
