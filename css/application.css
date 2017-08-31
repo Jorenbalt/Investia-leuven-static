@@ -804,9 +804,8 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-@media screen and (max-width: 767px) {
-  .vision-block {
-    padding-bottom: 40px; } }
+.vision-block {
+  margin: 20px 0; }
 
 .vision-block__title {
   padding-bottom: 20px;

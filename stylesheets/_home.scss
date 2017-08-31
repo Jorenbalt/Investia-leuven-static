@@ -62,9 +62,7 @@ $content-background-color: rgba(143, 42, 26, 0.7);
 }
 
 .vision-block {
-  @media screen and (max-width: $bp-sm - 1) {
-    padding-bottom: spacing(8);
-  }
+  margin: spacing(4) 0;
 }
 
 .vision-block__title {
