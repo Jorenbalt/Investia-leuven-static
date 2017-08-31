@@ -768,6 +768,9 @@ h3 {
   display: inline-block;
   color: white;
   padding: 15px 15px 20px; }
+  @media screen and (max-width: 767px) {
+    .navbar-button {
+      padding: 15px 10px 20px; } }
   .navbar-button:hover {
     background: #eaeaea; }
 
