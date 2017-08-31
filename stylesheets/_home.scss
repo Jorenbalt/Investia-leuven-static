@@ -62,7 +62,7 @@ $content-background-color: rgba(143, 42, 26, 0.7);
 }
 
 .vision-block {
-  margin: spacing(4) 0;
+  padding: spacing(4) 0;
 }
 
 $icon-size: 75px;
@@ -72,7 +72,6 @@ $icon-size: 75px;
   transform: translateX(-$icon-size/2);
   height: $icon-size;
   width: auto;
-
   margin-bottom: spacing(4);
 }
 

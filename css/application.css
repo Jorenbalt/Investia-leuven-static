@@ -805,7 +805,7 @@ h1 {
   background-size: cover; }
 
 .vision-block {
-  margin: 20px 0; }
+  padding: 20px 0; }
 
 .vision-block__image {
   margin-left: 50%;
