@@ -722,6 +722,9 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.fade-in {
+  opacity: 0; }
+
 body {
   color: #3a3a3a; }
 
@@ -795,12 +798,19 @@ h3 {
 
 .header-content__title {
   font-size: 3em;
-  color: white; }
+  color: white;
+  animation: fade-in 0.5s; }
 
 .header-content__description {
   padding-top: 15px;
-  color: white; }
+  color: white;
+  animation: fade-in 0.5s; }
 
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
 .content {
   padding: 75px 0; }
 

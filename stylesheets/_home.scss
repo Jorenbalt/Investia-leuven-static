@@ -19,11 +19,18 @@
 .header-content__title {
   font-size: 3em;
   color: white;
+  animation: fade-in 0.5s
 }
 
 .header-content__description {
   padding-top: spacing(3);
   color: white;
+  animation: fade-in 0.5s;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 100%; }
 }
 
 .content {
