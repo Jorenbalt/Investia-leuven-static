@@ -747,14 +747,12 @@ h3 {
   z-index: 1; }
 
 .navbar__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   padding-top: 9px;
-  display: inline-block;
+  display: block;
   height: 45px; }
-  @media screen and (min-width: 768px) {
-    .navbar__logo {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%); } }
 
 .navbar__logo--hidden {
   display: none; }
@@ -766,6 +764,11 @@ h3 {
 .navbar-buttons {
   list-style-type: none;
   float: right; }
+  @media screen and (max-width: 768px) {
+    .navbar-buttons {
+      text-align: center;
+      width: 100%;
+      margin-top: 56px; } }
 
 .navbar-button {
   display: inline-block;
@@ -779,6 +782,23 @@ h3 {
 
 .navbar-button--background {
   color: black; }
+
+@media screen and (max-width: 768px) {
+  .navbar-button--link {
+    display: none; } }
+
+.navbar-button--link-show {
+  display: block; }
+
+.navbar-button--icon {
+  padding: 15px 20px 20px;
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .navbar-button--icon {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0; } }
 
 .header {
   background-image: url("../assets/header_building.jpg");

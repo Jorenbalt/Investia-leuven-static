@@ -31,12 +31,29 @@ $(window).scroll(function() {
 // SMOOTH SCROLL
 
 $(document).on('click', 'a', function(event){
-    event.preventDefault();
     var href = $.attr(this, 'href');
-    $('html, body').animate({
-            scrollTop: $('[name="' + href.substr(1) + '"]').offset().top
-        }, 500, function() {
-        window.location.hash = '';
-      });
-    return false;
+    if (href.charAt(0) == '#') {
+      event.preventDefault();
+      $('html, body').animate({
+              scrollTop: $('[name="' + href.substr(1) + '"]').offset().top
+          }, 500, function() {
+          window.location.hash = '';
+        });
+      return false;
+    }
 });
+
+// NAVIGATION BAR
+
+function navigation() {
+  $('.navbar').addClass('navbar--background')
+  $('.navbar-button').addClass('navbar-button--background');
+  $('.navbar__logo').removeClass('navbar__logo--hidden');
+  $('.navbar-button--link').each(function() {
+    if ($(this).hasClass('navbar-button--link-show')) {
+      $(this).removeClass('navbar-button--link-show');
+    } else {
+      $(this).addClass('navbar-button--link-show');
+    }
+  })
+}
