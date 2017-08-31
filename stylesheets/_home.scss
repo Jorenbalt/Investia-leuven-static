@@ -8,8 +8,6 @@
   overflow: hidden;
 }
 
-$content-background-color: rgba(143, 42, 26, 0.7);
-
 .header-content {
   padding: spacing(55) 0 spacing(60);
   background: $content-background-color;
@@ -17,7 +15,6 @@ $content-background-color: rgba(143, 42, 26, 0.7);
   @media screen and (max-width: $bp-sm - 1) {
     padding: spacing(35) 0 spacing(40);
   }
-
 }
 
 .header-content__title {
@@ -53,7 +50,7 @@ $content-background-color: rgba(143, 42, 26, 0.7);
 }
 
 .image {
-  height: 400px;
+  height: 500px;
   background-image: url("../assets/computers.jpg");
   background-attachment: fixed !important;
   background-position: center;
@@ -83,5 +80,5 @@ $icon-size: 75px;
 
 .vision-block__text {
   color: $darker-grey;
-  line-height: 130%;
+  line-height: 135%;
 }

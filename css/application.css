@@ -750,7 +750,7 @@ h1 {
   color: white;
   padding: 15px 15px 20px; }
   .navbar-button:hover {
-    background: #999999; }
+    background: #eaeaea; }
 
 .navbar-button--background {
   color: black; }
@@ -797,7 +797,7 @@ h1 {
     color: #ad2a1a; }
 
 .image {
-  height: 400px;
+  height: 500px;
   background-image: url("../assets/computers.jpg");
   background-attachment: fixed !important;
   background-position: center;
@@ -821,4 +821,4 @@ h1 {
 
 .vision-block__text {
   color: #474747;
-  line-height: 130%; }
+  line-height: 135%; }

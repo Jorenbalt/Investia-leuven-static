@@ -13,3 +13,13 @@ $(window).scroll(function() {
     $('.navbar-button').removeClass('navbar-button--background');
   }
 })
+
+// SMOOTH SCROLL
+
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+    $('html, body').animate({
+            scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+        }, 500);
+    return false;
+});
