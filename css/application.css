@@ -780,12 +780,12 @@ h1 {
   color: white; }
 
 .content {
-  padding: 100px 0; }
+  padding: 75px 0; }
 
 .vision {
   text-align: center;
   color: #474747;
-  margin: 25px 0; }
+  margin: 65px 0; }
 
 .vision-title {
   padding-bottom: 25px; }
@@ -806,6 +806,13 @@ h1 {
 
 .vision-block {
   margin: 20px 0; }
+
+.vision-block__image {
+  margin-left: 50%;
+  transform: translateX(-37.5px);
+  height: 75px;
+  width: auto;
+  margin-bottom: 20px; }
 
 .vision-block__title {
   padding-bottom: 20px;
