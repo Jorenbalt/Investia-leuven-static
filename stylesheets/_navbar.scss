@@ -10,9 +10,11 @@
 }
 
 .navbar__logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  @media screen and (min-width: $bp-sm) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
   padding-top: 9px;
   display: inline-block;
