@@ -728,6 +728,12 @@ body {
 h1 {
   font-size: 40px; }
 
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
 .navbar {
   min-height: 0;
   transition: all 0.2s ease-in;
@@ -736,6 +742,17 @@ h1 {
   left: 0;
   right: 0;
   z-index: 1; }
+
+.navbar__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 9px;
+  display: inline-block;
+  height: 45px; }
+
+.navbar__logo--hidden {
+  display: none; }
 
 .navbar--background {
   background-color: rgba(255, 255, 255, 0.95);
@@ -782,6 +799,9 @@ h1 {
 .content {
   padding: 75px 0; }
 
+.content--grey {
+  background-color: #eaeaea; }
+
 .vision {
   text-align: center;
   color: #474747;
@@ -822,3 +842,7 @@ h1 {
 .vision-block__text {
   color: #474747;
   line-height: 135%; }
+
+.contact__title {
+  color: #ad2a1a;
+  text-align: center; }

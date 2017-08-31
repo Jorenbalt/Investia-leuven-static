@@ -1,4 +1,3 @@
-
 .header {
   background-image: url("../assets/header_building.jpg");
   background-attachment: fixed !important;
@@ -29,6 +28,10 @@
 
 .content {
   padding: spacing(15) 0;
+}
+
+.content--grey {
+  background-color: $light-grey;
 }
 
 .vision {
@@ -81,4 +84,9 @@ $icon-size: 75px;
 .vision-block__text {
   color: $darker-grey;
   line-height: 135%;
+}
+
+.contact__title {
+  color: $dark-ruby;
+  text-align: center;
 }
