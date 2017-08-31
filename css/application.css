@@ -757,7 +757,7 @@ h1 {
 
 .header {
   background-image: url("../assets/header_building.jpg");
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -799,7 +799,7 @@ h1 {
 .image {
   height: 400px;
   background-image: url("../assets/computers.jpg");
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
