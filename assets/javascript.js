@@ -7,14 +7,10 @@ $(window).scroll(function() {
 
   // Navbar
   if (scrollTop > 5) {
-    $('.navbar').addClass('navbar--background')
-    $('.navbar-button').addClass('navbar-button--background');
-    $('.navbar__logo').removeClass('navbar__logo--hidden');
+    navbarBackground();
   } else {
     if (!$('.navbar-button--link').hasClass('navbar-button--link-show')) {
-      $('.navbar').removeClass('navbar--background')
-      $('.navbar-button').removeClass('navbar-button--background');
-      $('.navbar__logo').addClass('navbar__logo--hidden');
+      navbarNoBackground();
     }
   }
 
@@ -36,6 +32,11 @@ $(document).on('click', 'a', function(event){
     var href = $.attr(this, 'href');
     if (href.charAt(0) == '#') {
       event.preventDefault();
+      $('.navbar-button--link').each(function() {
+        if ($(this).hasClass('navbar-button--link-show')) {
+          $(this).removeClass('navbar-button--link-show');
+        }
+      });
       $('html, body').animate({
               scrollTop: $('[name="' + href.substr(1) + '"]').offset().top
           }, 500, function() {
@@ -48,9 +49,7 @@ $(document).on('click', 'a', function(event){
 // NAVIGATION BAR
 
 function navigation() {
-  $('.navbar').addClass('navbar--background')
-  $('.navbar-button').addClass('navbar-button--background');
-  $('.navbar__logo').removeClass('navbar__logo--hidden');
+  navbarBackground();
   $('.navbar-button--link').each(function() {
     if ($(this).hasClass('navbar-button--link-show')) {
       $(this).removeClass('navbar-button--link-show');
@@ -58,4 +57,16 @@ function navigation() {
       $(this).addClass('navbar-button--link-show');
     }
   })
+}
+
+function navbarBackground() {
+  $('.navbar').addClass('navbar--background')
+  $('.navbar-button').addClass('navbar-button--background');
+  $('.navbar__logo').removeClass('navbar__logo--hidden');
+}
+
+function navbarNoBackground() {
+  $('.navbar').removeClass('navbar--background')
+  $('.navbar-button').removeClass('navbar-button--background');
+  $('.navbar__logo').addClass('navbar__logo--hidden');
 }

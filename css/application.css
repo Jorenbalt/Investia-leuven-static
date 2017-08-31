@@ -750,9 +750,9 @@ h3 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  padding-top: 9px;
+  margin-top: 9px;
   display: block;
-  height: 45px; }
+  height: 39px; }
 
 .navbar__logo--hidden {
   display: none; }
@@ -768,7 +768,7 @@ h3 {
     .navbar-buttons {
       text-align: center;
       width: 100%;
-      margin-top: 56px; } }
+      margin-top: 61px; } }
 
 .navbar-button {
   display: inline-block;
@@ -791,6 +791,7 @@ h3 {
   display: block; }
 
 .navbar-button--icon {
+  font-size: 1.2em;
   padding: 15px 20px 20px;
   display: none; }
   @media screen and (max-width: 768px) {
