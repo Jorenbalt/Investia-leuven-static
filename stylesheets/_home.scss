@@ -12,7 +12,7 @@
 
 }
 
-$content-background-color: rgba(39, 45, 86, 0.7);
+$content-background-color: rgba(143, 42, 26, 0.7);
 
 .header-content {
   padding: spacing(55) 0 spacing(60);
@@ -21,6 +21,7 @@ $content-background-color: rgba(39, 45, 86, 0.7);
 }
 
 .header-content__title {
+  font-size: 3em;
   color: white;
 }
 
@@ -30,6 +31,31 @@ $content-background-color: rgba(39, 45, 86, 0.7);
 }
 
 .content {
-  padding: spacing(10) 0;
-  background-color: $light-grey;
+  padding: spacing(20) 0;
+}
+
+.vision {
+  text-align: center;
+  color: $darker-grey;
+}
+
+.vision-title {
+  padding-bottom: spacing(5);
+}
+
+.vision-text {
+  font-size: 1.2em;
+  line-height: 150%;
+  strong {
+    color: $dark-ruby;
+  }
+}
+
+.image {
+  height: 400px;
+  background-image: url("../assets/computers.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
