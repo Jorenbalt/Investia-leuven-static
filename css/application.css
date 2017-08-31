@@ -880,4 +880,18 @@ h3 {
 
 .contact__title {
   color: #ad2a1a;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  margin-top: 15px;
+  resize: vertical;
+  font-size: 1em;
+  box-sizing: border-box; }
+
+input[type=submit] {
+  margin-top: 15px; }

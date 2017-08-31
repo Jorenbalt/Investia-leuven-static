@@ -96,4 +96,20 @@ $icon-size: 75px;
 .contact__title {
   color: $dark-ruby;
   text-align: center;
+  margin-bottom: spacing(4)
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: spacing(2);
+  border: 1px solid $light-grey;
+  border-radius: 4px;
+  margin-top: spacing(3);
+  resize: vertical;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  margin-top: spacing(3);
 }
