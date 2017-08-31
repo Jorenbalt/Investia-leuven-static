@@ -37,6 +37,7 @@ $content-background-color: rgba(143, 42, 26, 0.7);
 .vision {
   text-align: center;
   color: $darker-grey;
+  margin: spacing(5) 0;
 }
 
 .vision-title {
@@ -58,4 +59,15 @@ $content-background-color: rgba(143, 42, 26, 0.7);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.vision-block__title {
+  color: $dark-ruby;
+  padding-bottom: spacing(4);
+  text-align: center;
+}
+
+.vision-block__text {
+  color: $darker-grey;
+  line-height: 130%;
 }

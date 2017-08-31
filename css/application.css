@@ -748,7 +748,7 @@ h1 {
 .navbar-button {
   display: inline-block;
   color: white;
-  padding: 10px 15px 15px; }
+  padding: 15px 15px 20px; }
   .navbar-button:hover {
     background: #999999; }
 
@@ -781,7 +781,8 @@ h1 {
 
 .vision {
   text-align: center;
-  color: #474747; }
+  color: #474747;
+  margin: 25px 0; }
 
 .vision-title {
   padding-bottom: 25px; }
@@ -799,3 +800,12 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.vision-block__title {
+  color: #ad2a1a;
+  padding-bottom: 20px;
+  text-align: center; }
+
+.vision-block__text {
+  color: #474747;
+  line-height: 130%; }
