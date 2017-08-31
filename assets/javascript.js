@@ -11,9 +11,11 @@ $(window).scroll(function() {
     $('.navbar-button').addClass('navbar-button--background');
     $('.navbar__logo').removeClass('navbar__logo--hidden');
   } else {
-    $('.navbar').removeClass('navbar--background')
-    $('.navbar-button').removeClass('navbar-button--background');
-    $('.navbar__logo').addClass('navbar__logo--hidden');
+    if (!$('.navbar-button--link').hasClass('navbar-button--link-show')) {
+      $('.navbar').removeClass('navbar--background')
+      $('.navbar-button').removeClass('navbar-button--background');
+      $('.navbar__logo').addClass('navbar__logo--hidden');
+    }
   }
 
   // Fade ins
