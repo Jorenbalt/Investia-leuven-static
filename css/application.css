@@ -767,6 +767,9 @@ h1 {
   padding: 275px 0 300px;
   background: rgba(143, 42, 26, 0.7);
   box-shadow: -470px 0px 0px 500px rgba(143, 42, 26, 0.7); }
+  @media screen and (max-width: 767px) {
+    .header-content {
+      padding: 175px 0 200px; } }
 
 .header-content__title {
   font-size: 3em;
@@ -801,9 +804,13 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover; }
 
+@media screen and (max-width: 767px) {
+  .vision-block {
+    padding-bottom: 40px; } }
+
 .vision-block__title {
-  color: #ad2a1a;
   padding-bottom: 20px;
+  color: #ad2a1a;
   text-align: center; }
 
 .vision-block__text {

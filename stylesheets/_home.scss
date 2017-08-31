@@ -8,16 +8,16 @@
   overflow: hidden;
 }
 
-.header-overlay {
-
-}
-
 $content-background-color: rgba(143, 42, 26, 0.7);
 
 .header-content {
   padding: spacing(55) 0 spacing(60);
   background: $content-background-color;
   box-shadow: -470px 0px 0px 500px $content-background-color;
+  @media screen and (max-width: $bp-sm - 1) {
+    padding: spacing(35) 0 spacing(40);
+  }
+
 }
 
 .header-content__title {
@@ -61,9 +61,15 @@ $content-background-color: rgba(143, 42, 26, 0.7);
   background-size: cover;
 }
 
+.vision-block {
+  @media screen and (max-width: $bp-sm - 1) {
+    padding-bottom: spacing(8);
+  }
+}
+
 .vision-block__title {
-  color: $dark-ruby;
   padding-bottom: spacing(4);
+  color: $dark-ruby;
   text-align: center;
 }
 
