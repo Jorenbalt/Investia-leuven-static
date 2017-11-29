@@ -895,6 +895,12 @@ p {
   text-align: center;
   margin-bottom: 20px; }
 
+.contact__icon {
+  height: 60px; }
+
+.footer {
+  padding: 75px 0px 100px; }
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 10px;
