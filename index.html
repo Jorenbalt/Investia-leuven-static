@@ -40,12 +40,10 @@
         <div class="col-sm-6">
           <div class="header-content">
             <h1 class="header-content__title">Investia Leuven</h1>
-            <p class="header-content__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-              esse cillum dolore eu fugiat nulla pariatur.
+            <p class="header-content__description">Investia is a <strong>student investment association</strong>
+            committed to providing <strong>ambitious students</strong>
+            who are eager to set their first steps in the wondrous world of <strong>investing</strong>
+            with the right tools to do so.
             </p>
           </div>
         </div>
@@ -58,10 +56,12 @@
       <div class='row'>
         <div class='col-md-6 col-md-offset-3 col-sm-12 col-xs-12'>
           <h1 class="vision-title">What is Investia?</h1>
-          <p class="vision-text">Investia is a <strong>student investment association</strong>
-            committed to providing <strong>ambitious students</strong>
-            who are eager to set their first steps in the wondrous world of <strong>investing</strong>
-            with the right tools to do so.
+          <p class="vision-text">
+          Investia provides ambitious students the opportunity to co-manage an investment fund.
+
+          At Investia, our mission is to empower students who are eager to further develop their financial competence. We create an open environment in which all members are strongly encouraged to share and expand their investment skills through active portfolio management. 
+
+          Together, we enable the forthcoming generation of investors to achieve more. 
           </p>
         </div>
       </div>
@@ -73,44 +73,46 @@
   <section class="content">
     <a name="vision"></a>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="vision-block">
-            <img class='vision-block__image' src="./assets/svg/083-target.svg">
-            <h3 class="vision-block__title">Ambition</h3>
-            <p class="vision-block__text">The strongest foundation for satisfying results is a likeminded team with a common goal.
-              Therefore, a member of Investia distinguishes itself by breathing a devoted commitment to the association complemented with a never-ending strife to expand his/her financial toolset.
-              Demanding the exact same thing from every single colleague establishes a thriving culture of shared responsibility.
-              Investia is always on the lookout for students who show enough interest, ambition and potential to ensure the further controlled and responsible management of its fund.
-              We cannot stress enough that Investia does not have any criteria concerning the field of study an applicant should be enrolled in. Diversification is as important in a club as it is in your portfolio.
-            </p>
-          </div>
+      <div class="row vision-row">
+        <div class="col-sm-4">
+          <img class='vision-block__image' src="./assets/svg/083-target.svg">
         </div>
-        <div class="col-sm-6">
-          <div class="vision-block">
-            <img class="vision-block__image" src="./assets/svg/090-file-2.svg">
-            <h3 class="vision-block__title">Studiousness</h3>
-            <p class="vision-block__text">
-              One of the most interesting aspects of an investment association is the never-ending ability to learn things from one another.
-              We, as an association select our members to guarantee an open environment in which every member is strongly encouraged to share his knowledge and passion for investing.
-              Previous investing experience is thus a valuable asset but not a requirement for applicants.
-            </p>
-          </div>
+        <div class="col-sm-8">
+          <h3 class="vision-block__title">Ambition</h3>
+          <p class="vision-block__text">The strongest foundation for satisfying results is a likeminded team with a common goal.
+            Therefore, a member of Investia distinguishes itself by breathing a devoted commitment to the association complemented with a never-ending strife to expand his/her financial toolset.
+            Demanding the exact same thing from every single colleague establishes a thriving culture of shared responsibility.
+            Investia is always on the lookout for students who show enough interest, ambition and potential to ensure the further controlled and responsible management of its fund.
+            We cannot stress enough that Investia does not have any criteria concerning the field of study an applicant should be enrolled in. Diversification is as important in a club as it is in your portfolio.
+          </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="vision-block">
-            <img class="vision-block__image" src="./assets/svg/008-chat-3.svg">
-            <h3 class="vision-block__title">
-              Transparency
-            </h3>
-            <p class="vision-block__text">
-              As an association, we see it as our duty to guarantee complete transparency to our members. This implicates a couple of things:
-              Every member can check on any moment what the current value of the fund is.
-              Every decision of the board will be thoroughly motivated, every member has the right to demand an explanation if he believes that the provided motivation is not satisfactory.
-            </p>
-          </div>
+      <div class="row vision-row">
+        <div class="col-sm-8">
+          <h3 class="vision-block__title">Studiousness</h3>
+          <p class="vision-block__text">
+            One of the most interesting aspects of an investment association is the never-ending ability to learn things from one another.
+            We, as an association select our members to guarantee an open environment in which every member is strongly encouraged to share his knowledge and passion for investing.
+            Previous investing experience is thus a valuable asset but not a requirement for applicants.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <img class="vision-block__image" src="./assets/svg/090-file-2.svg">
+        </div>
+      </div>
+      <div class="row vision-row">
+        <div class="col-sm-4">
+          <img class="vision-block__image" src="./assets/svg/008-chat-3.svg">
+        </div>
+        <div class="col-sm-8">
+          <h3 class="vision-block__title">
+            Transparency
+          </h3>
+          <p class="vision-block__text">
+            As an association, we see it as our duty to guarantee complete transparency to our members. This implicates a couple of things:
+            Every member can check on any moment what the current value of the fund is.
+            Every decision of the board will be thoroughly motivated, every member has the right to demand an explanation if he believes that the provided motivation is not satisfactory.
+          </p>
         </div>
       </div>
     </div>
@@ -124,8 +126,8 @@
         </div>
         <div class="col-md-6">
           <form id="contactform" method="POST">
-            <input type='text' placeholder="Your full name" name='_full-name'>
-            <input type='text' placeholder="Your email-adress" name="_replyto">
+            <input type='text' placeholder="Your full name" name='full-name'>
+            <input type='text' placeholder="Your email-adress" name="replyto">
             <textarea rows='6' name="body"></textarea>
             <input type="text" name="_gotcha" style="display:none" />
             <button id="sendMessage">Send</button>
