@@ -752,7 +752,10 @@ h3 {
   transform: translateX(-50%);
   margin-top: 9px;
   display: block;
-  height: 39px; }
+  height: 52px; }
+  @media screen and (max-width: 768px) {
+    .navbar__logo {
+      height: 39px; } }
 
 .navbar__logo--hidden {
   display: none; }
@@ -773,7 +776,7 @@ h3 {
 .navbar-button {
   display: inline-block;
   color: white;
-  padding: 15px 15px 20px; }
+  padding: 20px 15px 30px; }
   @media screen and (max-width: 767px) {
     .navbar-button {
       padding: 15px 10px 20px; } }
@@ -801,8 +804,11 @@ h3 {
       top: 0;
       right: 0; } }
 
+p {
+  margin: 15px 0; }
+
 .header {
-  background-image: url("../assets/header_building.jpg");
+  background-image: url("../assets/image2.png");
   background-attachment: fixed !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -810,7 +816,7 @@ h3 {
   overflow: hidden; }
 
 .header-content {
-  padding: 275px 0 300px;
+  padding: 300px 0 325px;
   background: rgba(143, 42, 26, 0.7);
   box-shadow: -470px 0px 0px 500px rgba(143, 42, 26, 0.7); }
   @media screen and (max-width: 767px) {
@@ -833,7 +839,7 @@ h3 {
   100% {
     opacity: 100%; } }
 .content {
-  padding: 75px 0; }
+  padding: 50px 0; }
 
 .content--grey {
   background-color: #eaeaea; }
@@ -841,7 +847,7 @@ h3 {
 .vision {
   text-align: center;
   color: #474747;
-  margin: 65px 0; }
+  margin: 30px 0; }
 
 .vision-title {
   padding-bottom: 25px; }
@@ -861,17 +867,18 @@ h3 {
   background-size: cover; }
 
 .vision-row {
-  padding: 20px 0; }
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
 
-.vision-block {
-  padding: 20px 0; }
-
-.vision-block__image {
-  margin-left: 50%;
-  transform: translateX(-37.5px);
-  height: 75px;
-  width: auto;
-  margin-bottom: 20px; }
+.vision-column__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px; }
 
 .vision-block__title {
   padding-bottom: 20px;
@@ -879,6 +886,7 @@ h3 {
   text-align: center; }
 
 .vision-block__text {
+  font-size: 1.3em;
   color: #474747;
   line-height: 135%; }
 

@@ -15,7 +15,10 @@
   transform: translateX(-50%);
   margin-top: 9px;
   display: block;
-  height: 39px;
+  height: 52px;
+  @media screen and (max-width: $bp-sm) {
+    height: 39px;
+  }
 }
 
 .navbar__logo--hidden {
@@ -40,7 +43,7 @@
 .navbar-button {
   display: inline-block;
   color: white;
-  padding: spacing(3) spacing(3) spacing(4);
+  padding: spacing(4) spacing(3) spacing(6);
   @media screen and (max-width: $bp-sm - 1) {
     padding: spacing(3) spacing(2) spacing(4)
   }

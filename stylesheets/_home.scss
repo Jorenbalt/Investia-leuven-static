@@ -1,5 +1,9 @@
+p {
+  margin: spacing(3) 0;
+}
+
 .header {
-  background-image: url("../assets/header_building.jpg");
+  background-image: url("../assets/image2.png");
   background-attachment: fixed !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,7 +12,7 @@
 }
 
 .header-content {
-  padding: spacing(55) 0 spacing(60);
+  padding: spacing(60) 0 spacing(65);
   background: $content-background-color;
   box-shadow: -470px 0px 0px 500px $content-background-color;
   @media screen and (max-width: $bp-sm - 1) {
@@ -34,7 +38,7 @@
 }
 
 .content {
-  padding: spacing(15) 0;
+  padding: spacing(10) 0;
 }
 
 .content--grey {
@@ -44,7 +48,7 @@
 .vision {
   text-align: center;
   color: $darker-grey;
-  margin: spacing(13) 0;
+  margin: spacing(6) 0;
 }
 
 .vision-title {
@@ -69,22 +73,22 @@
 }
 
 .vision-row {
-  padding: spacing(4) 0;
+  padding: spacing(10) 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
 }
 
-.vision-block {
-  padding: spacing(4) 0;
+.vision-column__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: spacing(6);
 }
 
-$icon-size: 75px;
-
-.vision-block__image {
-  margin-left: 50%;
-  transform: translateX(-$icon-size/2);
-  height: $icon-size;
-  width: auto;
-  margin-bottom: spacing(4);
-}
+$icon-size: 100px;
 
 .vision-block__title {
   padding-bottom: spacing(4);
@@ -93,6 +97,7 @@ $icon-size: 75px;
 }
 
 .vision-block__text {
+  font-size: 1.3em;
   color: $darker-grey;
   line-height: 135%;
 }
