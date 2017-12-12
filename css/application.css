@@ -897,7 +897,8 @@ p {
 .vision-block__text {
   font-size: 1.3em;
   color: #474747;
-  line-height: 135%; }
+  line-height: 135%;
+  text-align: justify; }
 
 .contact__title {
   color: #ad2a1a;
