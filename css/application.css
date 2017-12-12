@@ -866,6 +866,9 @@ p {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.row:before, .row:after {
+  display: none; }
+
 .vision-row {
   padding: 50px 0;
   display: -webkit-box;
@@ -874,11 +877,17 @@ p {
   display: flex;
   flex-wrap: wrap; }
 
-.vision-column__image {
+.vision-column {
   display: flex;
+  flex-direction: column; }
+
+.vision-column__image {
   align-items: center;
   justify-content: center;
   padding-bottom: 30px; }
+
+.vision-image {
+  height: 100px; }
 
 .vision-block__title {
   padding-bottom: 20px;

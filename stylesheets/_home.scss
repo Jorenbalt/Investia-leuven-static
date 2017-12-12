@@ -72,6 +72,10 @@ p {
   background-size: cover;
 }
 
+.row:before, .row:after{
+  display: none;
+}
+
 .vision-row {
   padding: spacing(10) 0;
   display: -webkit-box;
@@ -81,14 +85,22 @@ p {
   flex-wrap: wrap;
 }
 
-.vision-column__image {
+.vision-column {
   display: flex;
+  flex-direction: column;
+}
+
+.vision-column__image {
   align-items: center;
   justify-content: center;
   padding-bottom: spacing(6);
 }
 
 $icon-size: 100px;
+
+.vision-image {
+  height: $icon-size;
+}
 
 .vision-block__title {
   padding-bottom: spacing(4);
