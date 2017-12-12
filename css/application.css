@@ -910,7 +910,8 @@ p {
   margin-bottom: 20px; }
 
 .contact__icon {
-  height: 60px; }
+  height: 40px;
+  padding: 0px 15px; }
 
 .footer {
   padding: 75px 0px 100px; }
