@@ -830,6 +830,7 @@ p {
 
 .header-content__description {
   padding-top: 15px;
+  font-size: 1.1em;
   color: white;
   animation: fade-in 0.5s; }
 
@@ -853,7 +854,7 @@ p {
   padding-bottom: 25px; }
 
 .vision-text {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 150%; }
   .vision-text strong {
     color: #ad2a1a; }
@@ -895,10 +896,13 @@ p {
   text-align: center; }
 
 .vision-block__text {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #474747;
   line-height: 135%;
   text-align: justify; }
+  @media screen and (max-width: 767px) {
+    .vision-block__text {
+      font-size: 1.1em; } }
 
 .contact__title {
   color: #ad2a1a;

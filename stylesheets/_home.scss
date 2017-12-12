@@ -28,6 +28,7 @@ p {
 
 .header-content__description {
   padding-top: spacing(3);
+  font-size: 1.1em;
   color: white;
   animation: fade-in 0.5s;
 }
@@ -56,7 +57,7 @@ p {
 }
 
 .vision-text {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 150%;
   strong {
     color: $dark-ruby;
@@ -109,7 +110,10 @@ $icon-size: 100px;
 }
 
 .vision-block__text {
-  font-size: 1.3em;
+  font-size: 1.2em;
+  @media screen and (max-width: $bp-sm - 1) {
+    font-size: 1.1em;
+  }
   color: $darker-grey;
   line-height: 135%;
   text-align: justify;
