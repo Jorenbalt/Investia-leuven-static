@@ -902,7 +902,9 @@ p {
   text-align: justify; }
   @media screen and (max-width: 767px) {
     .vision-block__text {
-      font-size: 1.1em; } }
+      font-size: 1.1em;
+      padding-left: 10px;
+      padding-right: 10px; } }
 
 .contact__title {
   color: #ad2a1a;

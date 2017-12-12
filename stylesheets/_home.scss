@@ -113,6 +113,8 @@ $icon-size: 100px;
   font-size: 1.2em;
   @media screen and (max-width: $bp-sm - 1) {
     font-size: 1.1em;
+    padding-left: spacing(2);
+    padding-right: spacing(2);
   }
   color: $darker-grey;
   line-height: 135%;
